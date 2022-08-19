@@ -1,0 +1,34 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    color:red;
+}
+
+p{
+    color: #00FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    /*100: thin
+    300: light
+    400: normal
+    500: medium
+    600: semi-bold
+    700: bold
+    800: extra-bold
+    900: black */
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-align: justify; /* left right center justify */
+    text-decoration: underline; /* underline line-through overline none */
+    text-transform: uppercase; /* uppercase lowercase capitalize none */
+    font-style: italic; /* italic */
+    background-color: black;
+    width: 300px;
+}
+
+/* p{
+    color:deeppink;
+} */
+
