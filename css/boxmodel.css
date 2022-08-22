@@ -1,0 +1,84 @@
+div {
+    width: calc(25% - 20px);
+    float: left; /* left right none */
+    border: 1px solid #000000; /* 3 thong so: do day mong - duong lien - mau sac *!*/
+    /* solid - dotted- dashed */
+    /*
+    border-top:1px ;
+    border-right:1px ;
+    border-left:1px ;
+    border-bottom:1px ;
+    */
+    margin: 10px;
+    /*
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+     */
+    padding: 15px 10px 15px 20px;
+    /*
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+     */
+    box-sizing: border-box;
+
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px white;
+    transition: 300ms all;
+}
+
+div:hover{
+    /* transform: rotate(45deg); */
+    transform: scale(1.5);
+}
+
+img{
+    max-width: 100%;
+}
+
+#box-s{
+    background-color: #ff1493;
+}
+
+.box-bt{
+    /*background-color: #0000FF;*/
+}
+
+.bbt{
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+body .box-bb #pg{
+    color: aqua;
+}
+
+#pg{
+    color: blueviolet;
+}
+
+.box-bb .cp{
+    color: green;
+}
+body div p{
+
+}
+.box-bb p{
+    color: red;
+}
+p{
+    color: deeppink;
+}
+p{
+    color: orange;
+}

@@ -1,0 +1,110 @@
+body{
+    background-color: #d3d3d3;
+    line-height: 1.2;
+    font-family: sans-serif;
+}
+
+#page{
+    float: left;
+    width: 1000px;
+    height: 300px;
+}
+
+#top{
+    float: left;
+    width: 100%;
+    background-color: #2d694f;
+    padding: 60px 20px 60px 500px;
+    box-sizing: border-box;
+}
+
+#left{
+    float: left;
+    width: 300px;
+    margin: 20px 0 0 15px;
+    background-color: #ffffff;
+    padding:0 20px 10px 0;
+    box-sizing: border-box;
+}
+
+#right-1{
+    margin: 20px 0 20px 0;
+}
+
+#right-1,#right-2{
+    float: right;
+    width: 650px;
+    padding-left: 20px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    margin: -30px 0 0 -500px;
+
+}
+
+#top-name{
+    font-size: 30px;
+    color: #ffffff;
+    margin: -140px 0 0 -200px;
+}
+
+#top-jobs{
+    color: #d3d3d3;
+    margin: 10px 0 30px -200px;
+}
+
+#pics{
+    width: 280px;
+    height: 200px;
+    border-bottom-right-radius: 50% ;
+    border-top-right-radius: 50% ;
+}
+
+#left .block-title{
+    width: fit-content;
+    font-size: 23px;
+    text-align: left;
+    margin-left: 15px;
+    padding: 5px 30px 5px 10px;
+    color: #ffffff;
+    background-color: #2d694f;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    font-weight: 700;
+}
+
+.left-title{
+    font-size: 17px;
+    text-align: left;
+}
+
+#right-1 .block-title,#right-2 .block-title{
+    color: darkgreen;
+}
+
+p{
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.inblock-title{
+    font-size: 18px;
+    color: #45FFE9;
+}
+
+#l-date-1,#l-date-2{
+    margin-left: 350px;
+}
+
+#left p{
+    margin-left: 50px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
