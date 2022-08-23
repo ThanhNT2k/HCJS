@@ -100,7 +100,7 @@ p{
     color: darkgreen;
 }
 
-#r-date-1,#r-date-2{
+.r-date{
     float: right;
     color: darkgreen;
 }
