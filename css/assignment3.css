@@ -4,9 +4,31 @@ body{
     font-family: sans-serif;
 }
 
+p{
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.inblock-title{
+    font-size: 18px;
+    color: #45FFE9;
+}
+
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.gauge{
+    width: 90%;
+    margin-left: 10%;
+    box-sizing: border-box;
+}
+
 #page{
     float: left;
-    width: 1000px;
+    width: 100%;
     height: 300px;
 }
 
@@ -16,34 +38,6 @@ body{
     background-color: #2d694f;
     padding: 60px 20px 60px 500px;
     box-sizing: border-box;
-}
-
-#left{
-    float: left;
-    width: 300px;
-    margin: 20px 0 0 15px;
-    background-color: #ffffff;
-    padding:0 20px 10px 0;
-    box-sizing: border-box;
-}
-
-#right-1{
-    margin: 20px 0 20px 0;
-}
-
-#right-1,#right-2{
-    float: right;
-    width: 650px;
-    padding-left: 20px;
-    margin-right: 20px;
-    background-color: #ffffff;
-    box-sizing: border-box;
-}
-
-img{
-    max-width: 100%;
-    margin: -30px 0 0 -500px;
-
 }
 
 #top-name{
@@ -57,11 +51,13 @@ img{
     margin: 10px 0 30px -200px;
 }
 
-#pics{
-    width: 280px;
-    height: 200px;
-    border-bottom-right-radius: 50% ;
-    border-top-right-radius: 50% ;
+#left{
+    float: left;
+    width: 30%;
+    margin: 20px 0 0 15px;
+    background-color: #ffffff;
+    padding:0 20px 10px 0;
+    box-sizing: border-box;
 }
 
 #left .block-title{
@@ -82,29 +78,42 @@ img{
     text-align: left;
 }
 
-#right-1 .block-title,#right-2 .block-title{
-    color: darkgreen;
-}
-
-p{
-    font-size: 16px;
-    margin-right: 20px;
-}
-
-.inblock-title{
-    font-size: 18px;
-    color: #45FFE9;
-}
-
-#l-date-1,#l-date-2{
-    margin-left: 350px;
-}
 
 #left p{
     margin-left: 50px;
 }
 
-.title{
-    font-size: 20px;
-    font-weight: 700;
+#right-1{
+    margin: 20px 0 20px 0;
+}
+
+#right-1,#right-2{
+    float: right;
+    width: 65%;
+    padding-left: 20px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+#right-1 .block-title,#right-2 .block-title{
+    color: darkgreen;
+}
+
+#r-date-1,#r-date-2{
+    float: right;
+    color: darkgreen;
+}
+
+img{
+    max-width: 100%;
+    margin: -30px 0 0 -500px;
+
+}
+
+#pics{
+    width: 280px;
+    height: 200px;
+    border-bottom-right-radius: 50% ;
+    border-top-right-radius: 50% ;
 }
