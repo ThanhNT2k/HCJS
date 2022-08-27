@@ -3,17 +3,12 @@
     border-bottom: 1px solid #cccccc;
     padding: 20px 0;
 }
-.top-page-left{
-    float: left;
-}
-.top-page-right{
-    float: right;
-}
-li{
-    list-style: none;
-}
 .top-page li{
     float: left;
+}
+.top-page-left{
+    float: left;
+    margin-top: -25px;
 }
 .top-page-left li a{
     color: #22222290;
@@ -21,6 +16,10 @@ li{
 }
 .top-page-left li a i{
     margin-right: 10px;
+}
+.top-page-right{
+    float: right;
+    margin-top: -25px;
 }
 .top-page-right li a{
     color: #22222290;
@@ -30,12 +29,12 @@ li{
     margin-right: 10px;
     color: #ffa500;
 }
+li{
+    list-style: none;
+}
 .header{
     background-color: #ffffff;
     padding: 20px 0;
-}
-.logo{
-    float: left;
 }
 .top-cart{
     float: right;
@@ -49,7 +48,7 @@ li{
 }
 .menu li a{
     float: left;
-    margin-right: 20px;
+    margin-right: 50px;
     font-size: 16px;
     color: #22222285;
     line-height: 54px;
@@ -65,4 +64,21 @@ li{
     color: #ffa500;
     font-weight: 500;
     text-shadow: -5px 3px 3px #ffa500;
+}
+.logo{
+    float: left;
+    margin-left: 50px;
+}
+.column{
+    float: left;
+    width: 25%;
+}
+.container{
+    content: "";
+    display: table;
+    clear: both;
+}
+.content-images{
+    max-width: 25%;
+    box-sizing: border-box;
 }
