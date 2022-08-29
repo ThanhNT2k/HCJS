@@ -74,6 +74,7 @@ li{
     font-weight: 500;
     text-shadow: -5px 3px 3px #ffa500;
 }
+<<<<<<< Updated upstream
 .logo{
     float: left;
     margin-left: 80px;
@@ -122,3 +123,13 @@ li{
     margin-left: 80px;
     margin-right: 80px;
 }
+=======
+img{
+    max-width: 100%;
+}
+.left-container{
+    float: left;
+    max-width: 25%;
+    margin-top: 50px;
+}
+>>>>>>> Stashed changes
