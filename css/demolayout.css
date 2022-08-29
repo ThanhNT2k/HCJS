@@ -1,7 +1,12 @@
 .top-page{
+    width: 100%;
+    position: initial;
+    height: 10px;
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
-    padding: 20px 0;
+    margin: 0 auto;
+    display: block;
+    padding: 30px;
 }
 .top-page li{
     float: left;
@@ -20,6 +25,7 @@
 .top-page-right{
     float: right;
     margin-top: -25px;
+    margin-right: 100px;
 }
 .top-page-right li a{
     color: #22222290;
@@ -38,7 +44,9 @@ li{
 }
 .top-cart{
     float: right;
-    margin-left: 30px;
+    margin-right: 50px;
+    margin-left: -70px;
+    margin-top: 15px;
 }
 .menu{
     float: right;
@@ -48,12 +56,13 @@ li{
 }
 .menu li a{
     float: left;
-    margin-right: 50px;
+    margin-right: 80px;
     font-size: 16px;
     color: #22222285;
     line-height: 54px;
 }
 .top-cart a{
+    float: left;
     margin-left: 20px;
     color: #22222285;
     font-size: 16px;
@@ -67,18 +76,49 @@ li{
 }
 .logo{
     float: left;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 .column{
     float: left;
-    width: 25%;
+    width: 28%;
+    margin-top: 10%;
+    margin-left: 5%;
 }
-.container{
+.container:after {
     content: "";
     display: table;
     clear: both;
 }
 .content-images{
-    max-width: 25%;
+    max-width: 100%;
     box-sizing: border-box;
+}
+.column{
+    background-color: white;
+    width: 350px;
+}
+.column h3{
+    margin-left: 15px;
+    margin-right: 5px;
+    color: orangered;
+}
+.column p{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.fb-page{
+    max-width: 340px;
+    box-sizing: border-box;
+}
+.main-left{
+    display: inline-block;
+    width: 1400px;
+}
+.main-right{
+    float: left;
+    width: 300px;
+}
+.column{
+    margin-left: 80px;
+    margin-right: 80px;
 }
