@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .top-page{
     width: 100%;
     position: initial;
@@ -74,7 +79,6 @@ li{
     font-weight: 500;
     text-shadow: -5px 3px 3px #ffa500;
 }
-<<<<<<< Updated upstream
 .logo{
     float: left;
     margin-left: 80px;
@@ -94,10 +98,7 @@ li{
     max-width: 100%;
     box-sizing: border-box;
 }
-.column{
-    background-color: white;
-    width: 350px;
-}
+
 .column h3{
     margin-left: 15px;
     margin-right: 5px;
@@ -108,22 +109,21 @@ li{
     margin-right: 5px;
 }
 .fb-page{
-    max-width: 340px;
+    max-width: 30%;
     box-sizing: border-box;
 }
 .main-left{
     display: inline-block;
-    width: 1400px;
+    width: 80%;
 }
 .main-right{
     float: left;
     width: 300px;
 }
 .column{
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-=======
 img{
     max-width: 100%;
 }
@@ -132,4 +132,7 @@ img{
     max-width: 25%;
     margin-top: 50px;
 }
->>>>>>> Stashed changes
+.fb-page{
+    float: left;
+    width: 10%;
+}
