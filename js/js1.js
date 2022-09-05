@@ -1,4 +1,4 @@
-var n = 2;
+var n = 3;
 var c = 0;
 function countdown(){
     var a = document.getElementById("head");
