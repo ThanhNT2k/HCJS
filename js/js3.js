@@ -63,7 +63,7 @@ function update1(){
         var pressure = data.main.pressure;
         document.getElementById("pressure").innerText = pressure;
     };
-    var url = "https://api.openweathermap.org/data/2.5/weather?q=newyork&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+    var url = "https://api.openweathermap.org/data/2.5/weather?q=new%20york&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
     xhttp.open("get",url,true);
     xhttp.send();
 }function update5(){
